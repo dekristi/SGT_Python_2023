@@ -21,10 +21,10 @@ from itertools import count
 # next(result)
 
 def prime_num():
-    a=1
+    a = 0
     while True:
-        if a == 1:
-            a += 1
+        if a < 2:
+            a == 2
         else:
             if all(a%i!=0 for i in range(2,a)):
                 yield a   
